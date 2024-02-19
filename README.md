@@ -2,6 +2,11 @@
 
 Brief description of your project.
 
+<img src="Figures/study_area.jpeg" width="600">
+
+
+
+
 ## Table of Contents
 
 - [Features](#features)
