@@ -1,6 +1,6 @@
 # MAPSPADES: Mapping and Monitoring Spatiotemporal Desertification Patterns in the Steppic Belt of Algeria
 
-<p float="left">
+<p align="center">
   <img src="figures/UORAN1.png" width="15%" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="figures/itc-logo@2x.png" width="7%" />
@@ -12,6 +12,7 @@
   <img src="figures/ESA.png" width="15%" />
 </p>
 
+---
 
 MAPSPADES is a research project between the [University of Oran 1](https://univ-oran1.dz/?lang=en) (Algeria) and [ITC/University of Twente](https://www.itc.nl/) (Netherlands) supported by the [EO Africa R&D Facility](https://www.eoafrica-rd.org/). It provides an analytical workflow to map the spatiotemporal evolution of desertification in the Algerian steppe from 2002 to 2022 and to understand its driving factors. It takes advantage of the availability of Earth observation data, as well as statistical and machine learning techniques to detect land cover change and assess land degradation over time. The developed methodology is intended to be both reproducible and applicable to other exposed geographical areas. The implemented workflow supports decision makers to have a better view and control over the desertification progress and the areas where strong mitigation measures should be implemented.
 
@@ -38,11 +39,6 @@ Algeria is one of the countries most affected by desertification, as evidenced b
 -	High resolution images of 30 m × 30 m (corresponding to the Landsat resolution) from [Google Earth Pro](https://www.google.com/earth/about/versions/), representing different locations in the study area. 1000 images were downloaded to validate our model.
 -	Climate data from ECMWF ERA5 (data was downloaded through the [Copernicus Climate Data Store](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=overview) using [ERA5 CLI](https://era5cli.readthedocs.io/en/stable/)).
 
-<p float="left">
-  <img src="figures/UORAN1.png" width="15%" />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="figures/itc-logo@2x.png" width="7%" />
-</p>
 
 ## Notebooks
 
@@ -52,6 +48,12 @@ Algeria is one of the countries most affected by desertification, as evidenced b
 | [VDI model](vdi-model.ipynb) | Given the set of control points, we build a linear regression model to calculate composite vegetation index, we call Vegetation Density Index (VDI), from two spectral indices (NDVI, MSAVI, TGSI, Albedo) |
 | [VDI raster](vdi-raster.ipynb) | We generate both a categorical and a continuous VDI raster for a given year according to two input rasters of different spectral indices and a linear model combining these indices. Categorical maps are obtained by mapping continuous values 5 classes after determining the boundaries of each class using the well-known Jenks natural break algorithm. The classes indicate different levels of vegetation density: Extremly Low, Low, Moderate, High, Very High.Two examples of vegetation maps are shown below.|
 | [Analysis of driving factors](driving-factors-analysis.ipynb) | We build a random forest regressor at the regional level (subdivision of the study area) to predict the annual VDI at the 5km scale from several driving factors, such as annual precipitation, average soil moisturen, wind speed or population density. Then, we apply techniques like permutation importance or SHAP to evaluate the impact of each feature on the output.|
+
+<p align="center">
+  <img src="figures/vegetation-2016.png" width="45%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="figures/vegetation-2018.png" width="45%" />
+</p>
 
 ## Team 
 
