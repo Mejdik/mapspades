@@ -38,15 +38,19 @@ Algeria is one of the countries most affected by desertification, as evidenced b
 -	High resolution images of 30 m × 30 m (corresponding to the Landsat resolution) from [Google Earth Pro](https://www.google.com/earth/about/versions/), representing different locations in the study area. 1000 images were downloaded to validate our model.
 -	Climate data from ECMWF ERA5 (data was downloaded through the [Copernicus Climate Data Store](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=overview) using [ERA5 CLI](https://era5cli.readthedocs.io/en/stable/)).
 
-
+<p float="left">
+  <img src="figures/UORAN1.png" width="15%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="figures/itc-logo@2x.png" width="7%" />
+</p>
 
 ## Notebooks
 
 | Name  | Description  |
 |---|---|
 | [Sampling of control points](control_points_sampling.ipynb)  | From the raster file of the study area divided into 5 classes of vegetation condition (generated using K-mean clustering of average mesured NDVI, MSAVI, Albedo, TGSI in a given year), we sample a balanced list of reference points with an arbitrary date that are used to build the vegetation model.|
-| [VDI model](vdi-model.ipynb) | Given the set of control points, we build a linear regression model to calculate composite vegetation index, we call Vegetation Density Index (VDI), from two spectral indices (NDVI, MSAVI, TGSI, Albedo)|
-| [VDI raster](vdi-raster.ipynb) | We generate both a categorical and a continuous VDI raster for a given year according to two input rasters of different spectral indices and a linear model combining these indices.|
+| [VDI model](vdi-model.ipynb) | Given the set of control points, we build a linear regression model to calculate composite vegetation index, we call Vegetation Density Index (VDI), from two spectral indices (NDVI, MSAVI, TGSI, Albedo) |
+| [VDI raster](vdi-raster.ipynb) | We generate both a categorical and a continuous VDI raster for a given year according to two input rasters of different spectral indices and a linear model combining these indices. Categorical maps are obtained by mapping continuous values 5 classes after determining the boundaries of each class using the well-known Jenks natural break algorithm. The classes indicate different levels of vegetation density: Extremly Low, Low, Moderate, High, Very High.Two examples of vegetation maps are shown below.|
 | [Analysis of driving factors](driving-factors-analysis.ipynb) | We build a random forest regressor at the regional level (subdivision of the study area) to predict the annual VDI at the 5km scale from several driving factors, such as annual precipitation, average soil moisturen, wind speed or population density. Then, we apply techniques like permutation importance or SHAP to evaluate the impact of each feature on the output.|
 
 ## Team 
