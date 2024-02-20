@@ -36,7 +36,7 @@ Algeria is one of the countries most affected by desertification, as evidenced b
 ## Workflow
 
 <p align="center">
-  <img src="figures/UORAN1.png" width="15%" />
+  <img src="figures/project-workflow.png" width="90%" />
 </p>
 
 ## Data 
