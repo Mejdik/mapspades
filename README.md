@@ -55,7 +55,7 @@ Algeria is one of the countries most affected by desertification, as evidenced b
   <img src="figures/vegetation-2018.png" width="45%" />
 </p>
 
-## Team Members {#team-members}
+## Team Members 
 
 
 - [Mejdi Kaddour](https://www.linkedin.com/in/mejdi-kaddour-71610b66/?originalSubdomain=dz), LITIO Laboratory & University of Oran 1, Algeria.
