@@ -15,12 +15,13 @@
 
 MAPSPADES is a research project between the [University of Oran 1](https://univ-oran1.dz/?lang=en) (Algeria) and [ITC/University of Twente](https://www.itc.nl/) (Netherlands) supported by the [EO Africa R&D Facility](https://www.eoafrica-rd.org/). It provides an analytical workflow to map the spatiotemporal evolution of desertification in the Algerian steppe from 2002 to 2022 and to understand its driving factors. It takes advantage of the availability of Earth observation data, as well as statistical and machine learning techniques to detect land cover change and assess land degradation over time. The developed methodology is intended to be both reproducible and applicable to other exposed geographical areas. The implemented workflow supports decision makers to have a better view and control over the desertification progress and the areas where strong mitigation measures should be implemented.
 
-## Table of Contents
+## Contents
 
 - [Context](#context)
 - [Data](#Data)
 - [Notebooks](#notebooks)
-- [Team and Contact](#contact)
+- [Team](#team)
+- [Contact](#contact)
 
 ## Context
 Desertification is a major environmental issue that threatens many parts of the globe. Between the 1980s and 2000s, deserts expanded to over 9% of drylands, impacting the lives of over 500 million people in 2015[<sup>(1)</sup>](https://www.ipcc.ch/site/assets/uploads/sites/4/2022/11/SRCCL_Chapter_3.pdf). It could be defined as a type of land degradation in arid, semi-arid and dry sub-humid areas resulting from climatic variations and human activities. As a result, fewer soils are able to support crops, livestock and wildlife, natural vegetation is degraded permanently, and many people have no choice but to migrate to urban areas or even beyond the country.
@@ -44,11 +45,18 @@ Algeria is one of the countries most affected by desertification, as evidenced b
 
 | Name  | Description  |
 |---|---|
-| [Control point sampling](control_points_sampling.ipynb)  | From the raster file of the study area divided into 5 classes of vegetation condition (generated using K-mean clustering of average mesured NDVI, MSAVI, Albedo, TGSI in a given year), we sample a balanced list of reference points with an arbitrary date that are used to build the vegetation model.|
+| [Sampling of control points](control_points_sampling.ipynb)  | From the raster file of the study area divided into 5 classes of vegetation condition (generated using K-mean clustering of average mesured NDVI, MSAVI, Albedo, TGSI in a given year), we sample a balanced list of reference points with an arbitrary date that are used to build the vegetation model.|
 | [VDI model](vdi-model.ipynb) | Given the set of control points, we build a linear regression model to calculate composite vegetation index, we call Vegetation Density Index (VDI), from two spectral indices (NDVI, MSAVI, TGSI, Albedo)|
 | [VDI raster](vdi-raster.ipynb) | We generate both a categorical and a continuous VDI raster for a given year according to two input rasters of different spectral indices and a linear model combining these indices.|
 | [Analysis of driving factors](driving-factors-analysis.ipynb) | We build a random forest regressor at the regional level (subdivision of the study area) to predict the annual VDI at the 5km scale from several driving factors, such as annual precipitation, average soil moisturen, wind speed or population density. Then, we apply techniques like permutation importance or SHAP to evaluate the impact of each feature on the output.|
-## Team and Contact
+
+## Team 
+
+- [Mejdi Kaddour](https://www.linkedin.com/in/mejdi-kaddour-71610b66/?originalSubdomain=dz), LITIO Laboratory & University of Oran 1, Algeria.
+- [Lucas De Oto](https://people.utwente.nl/l.h.deoto), ITC, University of Twente, Enschede, The Netherlands.
+- [Amel Faiza Tandjaoui](https://www.linkedin.com/in/ameltandjaoui/?locale=en_US), LGEM Laboratory & Higher School of Electrical and Energetic Engineering of Oran, Algeria.
+- [Hachem Guerid](https://www.linkedin.com/in/guerid/?originalSubdomain=dz), LITIO Laboratory & University of Sciences and Technology of Oran Mohamed-Boudiaf, Algeria.
+- [Mahdi Khodadadzadeh](https://people.utwente.nl/m.khodadadzadeh), ITC, University of Twente, Enschede, The Netherlands.
 
 
 
