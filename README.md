@@ -19,6 +19,7 @@ MAPSPADES is a research project between the [University of Oran 1](https://univ-
 ## Contents
 
 - [Context](#context)
+- [Worflow](#workflow)
 - [Data](#Data)
 - [Notebooks](#notebooks)
 - [Team Members](#team-members)
@@ -30,6 +31,12 @@ Algeria is one of the countries most affected by desertification, as evidenced b
 
 <p align="center">
   <img src="figures/study_area.jpeg" width="600">
+</p>
+
+## Workflow
+
+<p align="center">
+  <img src="figures/UORAN1.png" width="15%" />
 </p>
 
 ## Data 
