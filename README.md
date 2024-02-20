@@ -1,5 +1,18 @@
 # MAPSPADES: Mapping and Monitoring Spatiotemporal Desertification Patterns in the Steppic Belt of Algeria
 
+<p float="left">
+  <img src="figures/UORAN1.png" width="15%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="figures/itc-logo@2x.png" width="7%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="figures/EOAfrica.png" width="8%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="figures/African_Union.png" width="18%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="figures/ESA.png" width="15%" />
+</p>
+
+
 MAPSPADES is a research project between the [University of Oran 1](https://univ-oran1.dz/?lang=en) (Algeria) and [ITC/University of Twente](https://www.itc.nl/) (Netherlands) supported by the [EO Africa R&D Facility](https://www.eoafrica-rd.org/). It provides an analytical workflow to map the spatiotemporal evolution of desertification in the Algerian steppe from 2002 to 2022 and to understand its driving factors. It takes advantage of the availability of Earth observation data, as well as statistical and machine learning techniques to detect land cover change and assess land degradation over time. The developed methodology is intended to be both reproducible and applicable to other exposed geographical areas. The implemented workflow supports decision makers to have a better view and control over the desertification progress and the areas where strong mitigation measures should be implemented.
 
 ## Table of Contents
