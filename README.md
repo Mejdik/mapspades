@@ -18,6 +18,7 @@ MAPSPADES is a research project between the [University of Oran 1](https://univ-
 ## Table of Contents
 
 - [Context](#context)
+- [Data Sources](#Data Sources)
 - [Notebooks](#notebooks)
 - [Team and Contact](#contact)
 
@@ -30,10 +31,23 @@ Algeria is one of the countries most affected by desertification, as evidenced b
   <img src="figures/study_area.jpeg" width="600">
 </p>
 
+## Data Sources
+
+- [Landsat](https://landsat.gsfc.nasa.gov/data/) multispectral images (30 m of resolution) with atmospherically corrected surface reflectance (data from 2002 to 2013 are based on MSS and ETM+ Landsat 5 and 7 sensors, respectively; data from 2014 to 2022 are based on Landsat 8 OLI). 
+-	[ESA WorldCover 10 m 2021](https://worldcover2021.esa.int/) to mask out built-up and water areas. 
+-	High resolution images of 30 m × 30 m (corresponding to the Landsat resolution) from [Google Earth Pro](https://www.google.com/earth/about/versions/), representing different locations in the study area. 1000 images were downloaded to validate our model.
+-	Climate data from ECMWF ERA5 (data was downloaded through the [Copernicus Climate Data Store](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=overview) using [ERA5 CLI](https://era5cli.readthedocs.io/en/stable/)).
+
+
+
 ## Notebooks
 
-| 
-
+| Name  | Description  |
+|---|---|
+| [Control point sampling](control_points_sampling.ipynb)  | From the raster file of the study area divided into 5 classes of vegetation condition (generated using K-mean clustering of average mesured NDVI, MSAVI, Albedo, TGSI in a given year), we sample a balanced list of reference points with an arbitrary date that are used to build the vegetation model.|
+| [VDI model](vdi-model.ipynb) | Given the set of control points, we build a linear regression model to calculate composite vegetation index, we call Vegetation Density Index (VDI), from two spectral indices (NDVI, MSAVI, TGSI, Albedo)|
+| [VDI raster](vdi-raster.ipynb) | We generate both a categorical and a continuous VDI raster for a given year according to two input rasters of different spectral indices and a linear model combining these indices.|
+| [Analysis of driving factors](driving-factors-analysis.ipynb) | We build a random forest regressor at the regional level (subdivision of the study area) to predict the annual VDI at the 5km scale from several driving factors, such as annual precipitation, average soil moisturen, wind speed or population density. Then, we apply techniques like permutation importance or SHAP to evaluate the impact of each feature on the output.|
 ## Team and Contact
 
 
