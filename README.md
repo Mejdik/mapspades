@@ -21,7 +21,7 @@ MAPSPADES is a research project between the [University of Oran 1](https://univ-
 - [Context](#context)
 - [Data](#Data)
 - [Notebooks](#notebooks)
-- [Team](#team)
+- [Team Members](#team)
 
 ## Context
 Desertification is a major environmental issue that threatens many parts of the globe. Between the 1980s and 2000s, deserts expanded to over 9% of drylands, impacting the lives of over 500 million people in 2015[<sup>(1)</sup>](https://www.ipcc.ch/site/assets/uploads/sites/4/2022/11/SRCCL_Chapter_3.pdf). It could be defined as a type of land degradation in arid, semi-arid and dry sub-humid areas resulting from climatic variations and human activities. As a result, fewer soils are able to support crops, livestock and wildlife, natural vegetation is degraded permanently, and many people have no choice but to migrate to urban areas or even beyond the country.
@@ -55,7 +55,8 @@ Algeria is one of the countries most affected by desertification, as evidenced b
   <img src="figures/vegetation-2018.png" width="45%" />
 </p>
 
-## Team 
+## Team Members{#team}
+
 
 - [Mejdi Kaddour](https://www.linkedin.com/in/mejdi-kaddour-71610b66/?originalSubdomain=dz), LITIO Laboratory & University of Oran 1, Algeria.
 - [Lucas De Oto](https://people.utwente.nl/l.h.deoto), ITC, University of Twente, Enschede, The Netherlands.
