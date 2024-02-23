@@ -22,7 +22,7 @@ MAPSPADES is a research project between the [University of Oran 1](https://univ-
 - [Worflow](#workflow)
 - [EO Data Sources](#eo-data-sources)
 - [Notebooks](#notebooks)
-- [Datasets](#datasets)
+- [Dataset](#dataset)
 - [Team Members](#team-members)
 
 ## Context
