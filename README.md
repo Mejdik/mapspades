@@ -20,7 +20,7 @@ MAPSPADES is a research project between the [University of Oran 1](https://univ-
 
 - [Context](#context)
 - [Worflow](#workflow)
-- [Data](#Data)
+- [EO Data](#eo-data)
 - [Notebooks](#notebooks)
 - [Team Members](#team-members)
 
@@ -39,7 +39,7 @@ Algeria is one of the countries most affected by desertification, as evidenced b
   <img src="figures/project-workflow.png" width="90%" />
 </p>
 
-## Data 
+## EO Data 
 
 - [Landsat](https://landsat.gsfc.nasa.gov/data/) multispectral images (30 m of resolution) with atmospherically corrected surface reflectance (data from 2002 to 2013 are based on MSS and ETM+ Landsat 5 and 7 sensors, respectively; data from 2014 to 2022 are based on Landsat 8 OLI). 
 -	[ESA WorldCover 10 m 2021](https://worldcover2021.esa.int/) to mask out built-up and water areas. 
