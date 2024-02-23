@@ -65,8 +65,8 @@ Algeria is one of the countries most affected by desertification, as evidenced b
 
 ## Dataset
 
-The data files (raster, tiff or shapefile format) required to run the Jupyter notebooks are available from the following repository: 
-Once downloaded, they should be placed in the rasters folder.
+The data files (in tiff or shapefile format) required to run the Jupyter notebooks are available from the following repository: ...
+Once downloaded, they should be placed in the folder "rasters".
 
 ## Team Members 
 
