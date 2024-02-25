@@ -1,0 +1,40 @@
+Category level Intensity Analysis for interval:  2002 - 2006 
+"","Gross Loss","Gross Gain","Loss Intensity","Gain Intensity","Uniform Category Intensity","Loss Behavior","Gain Behavior"
+"Extremely Low","12515222","9873676","0.0747317205692059","0.0629287408112993","0.100115763031274","Dormant","Dormant"
+"Low","16306538.25","14378687.75","0.12018107999367","0.112358365235381","0.100115763031274","Active","Active"
+"Moderate","5719388.25","9013186.5","0.129556959772996","0.157240741846923","0.100115763031274","Active","Active"
+"High","1458479","2298771","0.115245067799606","0.143524057034488","0.100115763031274","Active","Active"
+"Very High","230502","665808.25","0.119466742406024","0.181387065339127","0.100115763031274","Active","Active"
+
+Category level Intensity Analysis for interval:  2006 - 2010 
+"","Gross Loss","Gross Gain","Loss Intensity","Gain Intensity","Uniform Category Intensity","Loss Behavior","Gain Behavior"
+"Extremely Low","21418342.5","2089430","0.136507347799354","0.0262534616590748","0.131876590539287","Active","Dormant"
+"Low","18309497","18847775.25","0.143074610630035","0.144843854265303","0.131876590539287","Active","Active"
+"Moderate","6197442.75","19043821.5","0.108118310384883","0.175185753235565","0.131876590539287","Dormant","Active"
+"High","1497725.75","6626125","0.0935106959175232","0.181387482397452","0.131876590539287","Dormant","Active"
+"Very High","300805","1116661.25","0.0819487235091124","0.161039707681228","0.131876590539287","Dormant","Active"
+
+Category level Intensity Analysis for interval:  2010 - 2014 
+"","Gross Loss","Gross Gain","Loss Intensity","Gain Intensity","Uniform Category Intensity","Loss Behavior","Gain Behavior"
+"Extremely Low","998951.25","23682349.75","0.0125517142671254","0.139045852995488","0.142193503768071","Dormant","Dormant"
+"Low","20315408.75","20369118.5","0.156122516599144","0.156277254998658","0.142193503768071","Active","Active"
+"Moderate","21955255.25","5334246.75","0.201968282912667","0.126336840214524","0.142193503768071","Active","Dormant"
+"High","6967782.75","1894677.75","0.190740224628254","0.116683141597613","0.142193503768071","Active","Dormant"
+"Very High","1219924","176929.25","0.175931782672063","0.0640561783718518","0.142193503768071","Active","Dormant"
+
+Category level Intensity Analysis for interval:  2014 - 2018 
+"","Gross Loss","Gross Gain","Loss Intensity","Gain Intensity","Uniform Category Intensity","Loss Behavior","Gain Behavior"
+"Extremely Low","7257093.75","8853384","0.0426084743021319","0.0501024548781543","0.0765700207406346","Dormant","Dormant"
+"Low","13466497.75","9641695.25","0.103318526170664","0.0838113754859347","0.0765700207406346","Active","Active"
+"Moderate","4994872.25","5960565","0.118299060188809","0.129337977312797","0.0765700207406346","Active","Active"
+"High","1734275.25","2823972.25","0.106804803384103","0.137108727706868","0.0765700207406346","Active","Active"
+"Very High","256601.5","429724","0.092901040695559","0.124392365508447","0.0765700207406346","Active","Active"
+
+Category level Intensity Analysis for interval:  2018 - 2022 
+"","Gross Loss","Gross Gain","Loss Intensity","Gain Intensity","Uniform Category Intensity","Loss Behavior","Gain Behavior"
+"Extremely Low","6512816.75","9697732","0.0368568795103163","0.0511901554419516","0.0782146152303983","Dormant","Dormant"
+"Low","11539523.75","12046089","0.100308434654177","0.102899387062111","0.0782146152303983","Active","Active"
+"Moderate","6634642.5","5052750.75","0.143964748500104","0.127088860523118","0.0782146152303983","Active","Active"
+"High","3136369.5","1207633.25","0.152276153479775","0.0937483721993581","0.0782146152303983","Active","Active"
+"Very High","481137.75","300285.25","0.139275122771621","0.109947275440058","0.0782146152303983","Active","Active"
+

@@ -1,0 +1,155 @@
+Transition level Intensity Analysis for interval:  2002 - 2006 
+"","Annual Transition Size for Gain of Extremely Low","Transition Intensity for Gain of  Extremely Low","Uniform Transition Intensity","Transition Behavior for Gain of  Extremely Low"
+"Low","9132422.75","0.0673070158869412","0.0507869360665468","Target"
+"Moderate","710032.5","0.0160838271540701","0.0507869360665468","Avoid"
+"High","21796.75","0.00172232026073811","0.0507869360665468","Avoid"
+"Very High","9424","0.00488435926991682","0.0507869360665468","Avoid"
+
+"","Annual Transition Size for Gain of Low","Transition Intensity for Gain of  Low","Uniform Transition Intensity","Transition Behavior for Gain of  Low"
+"Extremely Low","10633781.75","0.0634971402293081","0.063566456678981","Avoid"
+"Moderate","3466605","0.0785263711610879","0.063566456678981","Target"
+"High","234143.75","0.0185014061523025","0.063566456678981","Avoid"
+"Very High","44157.25","0.0228862344409523","0.063566456678981","Avoid"
+
+"","Annual Transition Size for Gain of Moderate","Transition Intensity for Gain of  Moderate","Uniform Transition Intensity","Transition Behavior for Gain of  Moderate"
+"Extremely Low","1724589.25","0.0102979812845235","0.0283668477678113","Avoid"
+"Low","6444645.75","0.0474977873621715","0.0283668477678113","Target"
+"High","784040.5","0.061952760773475","0.0283668477678113","Target"
+"Very High","59911","0.0310512360165521","0.0283668477678113","Target"
+
+"","Annual Transition Size for Gain of High","Transition Intensity for Gain of  High","Uniform Transition Intensity","Transition Behavior for Gain of  High"
+"Extremely Low","129196.75","0.000771468170476685","0.00658245662350329","Avoid"
+"Low","632538.25","0.00466188033639244","0.00658245662350329","Avoid"
+"Moderate","1420026.25","0.0321667765338098","0.00658245662350329","Target"
+"Very High","117009.75","0.0606449126786025","0.00658245662350329","Target"
+
+"","Annual Transition Size for Gain of Very High","Transition Intensity for Gain of  Very High","Uniform Transition Intensity","Transition Behavior for Gain of  Very High"
+"Extremely Low","27654.25","0.000165130884897684","0.0018497091335091","Avoid"
+"Low","96931.5","0.000714396408165077","0.0018497091335091","Avoid"
+"Moderate","122724.5","0.00277998492402767","0.0018497091335091","Target"
+"High","418498","0.0330685806130905","0.0018497091335091","Target"
+
+Transition level Intensity Analysis for interval:  2006 - 2010 
+"","Annual Transition Size for Gain of Extremely Low","Transition Intensity for Gain of  Extremely Low","Uniform Transition Intensity","Transition Behavior for Gain of  Extremely Low"
+"Low","1843574","0.0144061102398202","0.0101933418529012","Target"
+"Moderate","227732.75","0.00397294192823369","0.0101933418529012","Avoid"
+"High","8763","0.00054711900915455","0.0101933418529012","Avoid"
+"Very High","9360.25","0.00255002589460338","0.0101933418529012","Avoid"
+
+"","Annual Transition Size for Gain of Low","Transition Intensity for Gain of  Low","Uniform Transition Intensity","Transition Behavior for Gain of  Low"
+"Extremely Low","17227228.25","0.109795762129661","0.0805767988003695","Target"
+"Moderate","1481796.5","0.0258508775920896","0.0805767988003695","Avoid"
+"High","107323.75","0.0067007718542452","0.0805767988003695","Avoid"
+"Very High","31426.75","0.0085616331062981","0.0805767988003695","Avoid"
+
+"","Annual Transition Size for Gain of Moderate","Transition Intensity for Gain of  Moderate","Uniform Transition Intensity","Transition Behavior for Gain of  Moderate"
+"Extremely Low","3893339.75","0.0248137540687054","0.0625286705293378","Avoid"
+"Low","14497837.25","0.11328942676696","0.0625286705293378","Target"
+"High","580922.5","0.0362699694848322","0.0625286705293378","Avoid"
+"Very High","71722","0.0195393239724092","0.0625286705293378","Avoid"
+
+"","Annual Transition Size for Gain of High","Transition Intensity for Gain of  High","Uniform Transition Intensity","Transition Behavior for Gain of  High"
+"Extremely Low","290163","0.00184932057928871","0.0191580840685974","Avoid"
+"Low","1885971.75","0.0147374159863865","0.0191580840685974","Avoid"
+"Moderate","4261694.25","0.0743479529015367","0.0191580840685974","Target"
+"Very High","188296","0.0512977405358017","0.0191580840685974","Target"
+
+"","Annual Transition Size for Gain of Very High","Transition Intensity for Gain of  Very High","Uniform Transition Intensity","Transition Behavior for Gain of  Very High"
+"Extremely Low","7611.5","4.85110216990313e-05","0.00311732192905358","Avoid"
+"Low","82114","0.00064165763686871","0.00311732192905358","Avoid"
+"Moderate","226219.25","0.0039465379630228","0.00311732192905358","Target"
+"High","800716.5","0.0499928355692913","0.00311732192905358","Target"
+
+Transition level Intensity Analysis for interval:  2010 - 2014 
+"","Annual Transition Size for Gain of Extremely Low","Transition Intensity for Gain of  Extremely Low","Uniform Transition Intensity","Transition Behavior for Gain of  Extremely Low"
+"Low","18955379.75","0.145670787434314","0.0838920462754332","Target"
+"Moderate","4372949","0.0402271342663923","0.0838920462754332","Avoid"
+"High","342905.5","0.00938689888060357","0.0838920462754332","Avoid"
+"Very High","11115.5","0.00160302586906341","0.0838920462754332","Avoid"
+
+"","Annual Transition Size for Gain of Low","Transition Intensity for Gain of  Low","Uniform Transition Intensity","Transition Behavior for Gain of  Low"
+"Extremely Low","818421.25","0.0102833743690131","0.0878897598971788","Avoid"
+"Moderate","16863343.75","0.155127350721808","0.0878897598971788","Target"
+"High","2554268","0.0699220497482879","0.0878897598971788","Avoid"
+"Very High","133085.5","0.0191929737121352","0.0878897598971788","Avoid"
+
+"","Annual Transition Size for Gain of Moderate","Transition Intensity for Gain of  Moderate","Uniform Transition Intensity","Transition Behavior for Gain of  Moderate"
+"Extremely Low","111590.75","0.00140212568816969","0.021069329153178","Avoid"
+"Low","958718.5","0.0073676856209037","0.021069329153178","Avoid"
+"High","3987414.5","0.109153853486026","0.021069329153178","Target"
+"Very High","276523","0.0398788648635708","0.021069329153178","Target"
+
+"","Annual Transition Size for Gain of High","Transition Intensity for Gain of  High","Uniform Transition Intensity","Transition Behavior for Gain of  High"
+"Extremely Low","65539.5","0.000823496719394732","0.00582346779472766","Avoid"
+"Low","378256","0.00290687129978252","0.00582346779472766","Avoid"
+"Moderate","651682.25","0.00599488111335729","0.00582346779472766","Target"
+"Very High","799200","0.115256918227293","0.00582346779472766","Target"
+
+"","Annual Transition Size for Gain of Very High","Transition Intensity for Gain of  Very High","Uniform Transition Intensity","Transition Behavior for Gain of  Very High"
+"Extremely Low","3399.75","4.27174905478718e-05","0.000498464853873999","Avoid"
+"Low","23054.5","0.000177172244143744","0.000498464853873999","Avoid"
+"Moderate","67280.25","0.00061891681110995","0.000498464853873999","Target"
+"High","83194.75","0.00227742251333704","0.000498464853873999","Target"
+
+Transition level Intensity Analysis for interval:  2014 - 2018 
+"","Annual Transition Size for Gain of Extremely Low","Transition Intensity for Gain of  Extremely Low","Uniform Transition Intensity","Transition Behavior for Gain of  Extremely Low"
+"Low","7776671.75","0.0596646788674538","0.0462168222907456","Target"
+"Moderate","778323","0.0184338807510712","0.0462168222907456","Avoid"
+"High","282896.75","0.0174221086080493","0.0462168222907456","Avoid"
+"Very High","15492.5","0.00560896710648982","0.0462168222907456","Avoid"
+
+"","Annual Transition Size for Gain of Low","Transition Intensity for Gain of  Low","Uniform Transition Intensity","Transition Behavior for Gain of  Low"
+"Extremely Low","6349956.75","0.0372824133630662","0.0416411026325135","Avoid"
+"Moderate","2698449.25","0.063910345303065","0.0416411026325135","Target"
+"High","537101.75","0.0330772446911226","0.0416411026325135","Avoid"
+"Very High","56187.5","0.0203423488330416","0.0416411026325135","Avoid"
+
+"","Annual Transition Size for Gain of Moderate","Transition Intensity for Gain of  Moderate","Uniform Transition Intensity","Transition Behavior for Gain of  Moderate"
+"Extremely Low","621327.5","0.0036479915692088","0.0186465804136766","Avoid"
+"Low","4641836.5","0.0356133951684055","0.0186465804136766","Target"
+"High","659396.5","0.0406087289400376","0.0186465804136766","Target"
+"Very High","38004.5","0.0137593022687489","0.0186465804136766","Avoid"
+
+"","Annual Transition Size for Gain of High","Transition Intensity for Gain of  High","Uniform Transition Intensity","Transition Behavior for Gain of  High"
+"Extremely Low","280139.5","0.00164477917716883","0.00817016241426992","Avoid"
+"Low","987150","0.00757367542792417","0.00817016241426992","Avoid"
+"Moderate","1409765.75","0.0333890347869001","0.00817016241426992","Target"
+"Very High","146917","0.0531904224872787","0.00817016241426992","Target"
+
+"","Annual Transition Size for Gain of Very High","Transition Intensity for Gain of  Very High","Uniform Transition Intensity","Transition Behavior for Gain of  Very High"
+"Extremely Low","5670","3.32901926880975e-05","0.00119660189388249","Avoid"
+"Low","60839.5","0.000466776706880608","0.00119660189388249","Avoid"
+"Moderate","108334.25","0.00256579934777301","0.00119660189388249","Target"
+"High","254880.25","0.0156967211448939","0.00119660189388249","Target"
+
+Transition level Intensity Analysis for interval:  2018 - 2022 
+"","Annual Transition Size for Gain of Extremely Low","Transition Intensity for Gain of  Extremely Low","Uniform Transition Intensity","Transition Behavior for Gain of  Extremely Low"
+"Low","8418303.75","0.0731769256600287","0.0523701309066964","Target"
+"Moderate","906399","0.0196679028411471","0.0523701309066964","Avoid"
+"High","370153.5","0.0179715914139185","0.0523701309066964","Avoid"
+"Very High","2875.75","0.000832444418070477","0.0523701309066964","Avoid"
+
+"","Annual Transition Size for Gain of Low","Transition Intensity for Gain of  Low","Uniform Transition Intensity","Transition Behavior for Gain of  Low"
+"Extremely Low","5917089.75","0.0334855827115784","0.0488008165030097","Avoid"
+"Moderate","5084850.25","0.110335890351581","0.0488008165030097","Target"
+"High","995877.25","0.0483515596513792","0.0488008165030097","Avoid"
+"Very High","48271.75","0.0139732413589476","0.0488008165030097","Avoid"
+
+"","Annual Transition Size for Gain of Moderate","Transition Intensity for Gain of  Moderate","Uniform Transition Intensity","Transition Behavior for Gain of  Moderate"
+"Extremely Low","543458.75","0.00307550395419572","0.0159999868713204","Avoid"
+"Low","2792329","0.0242725919281948","0.0159999868713204","Target"
+"High","1607886.25","0.0780656531008288","0.0159999868713204","Target"
+"Very High","109076.75","0.0315744872394224","0.0159999868713204","Target"
+
+"","Annual Transition Size for Gain of High","Transition Intensity for Gain of  High","Uniform Transition Intensity","Transition Behavior for Gain of  High"
+"Extremely Low","42077","0.000238119231460885","0.00353848101593474","Avoid"
+"Low","273037","0.00237340072831623","0.00353848101593474","Avoid"
+"Moderate","571605.75","0.0124032422304537","0.00353848101593474","Target"
+"Very High","320913.5","0.0928949497551804","0.00353848101593474","Target"
+
+"","Annual Transition Size for Gain of Very High","Transition Intensity for Gain of  Very High","Uniform Transition Intensity","Transition Behavior for Gain of  Very High"
+"Extremely Low","10191.25","5.76736130813924e-05","0.000837784522865002","Avoid"
+"Low","55854","0.000485516337636931","0.000837784522865002","Avoid"
+"Moderate","71787.5","0.00155771307692181","0.000837784522865002","Target"
+"High","162452.5","0.00788734931364852","0.000837784522865002","Target"
+
