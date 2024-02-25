@@ -56,7 +56,7 @@ Algeria is one of the countries most affected by desertification, as evidenced b
 | [VDI model](vdi-model.ipynb) | Given the set of control points, we build a linear regression model to calculate composite vegetation index, we call Vegetation Density Index (VDI), from two spectral indices (NDVI, MSAVI, TGSI, Albedo) |
 | [VDI raster](vdi-raster.ipynb) | Generate both a categorical and a continuous VDI raster for a given year according to two input rasters of different spectral indices and a linear model combining these indices. Categorical maps are obtained by mapping continuous values 5 classes after determining the boundaries of each class using the well-known Jenks natural break algorithm. The classes indicate different levels of vegetation density: Extremly Low, Low, Moderate, High, Very High.Two examples of vegetation maps are shown below.|
 | [Intensity analysis](intensity-analysis-R.ipynb) | Execute *Intensity analysis*, which is a method for quantitative analysis of land use and land cover change. It uses a transfer matrix to analyze the land type map at different time points in the same region and obtains different patterns of land cover change at the interval, category, and transition levels (written in R). |  
-| [Intensity analysis diagrams](intensity-analysis-diagrams.ipynb) | Generates different diagrams and files related to intensity analysis (some examples are in the 'results' folder.|  
+| [Intensity analysis diagrams](intensity-analysis-diagrams.ipynb) | Generates different diagrams and files related to intensity analysis (some examples are in the folder *results*).|  
 | [Gravity center change](gravity-center-analysis.ipynb) | Calculate the gravity centers of different VDI classes and analyze their change in distance and direction over time.|  
 | [Region classification](region-classification.ipynb) | Infer the region label from the a time series of driving factors using random forest classification. This is a complementary way to determine the appropriate number of contiguous regions previously obtained from the Skater clustering algorithm.|  
 | [Analysis of driving factors](driving-factors-analysis.ipynb) | Build a random forest regressor at the regional level (subdivision of the study area) to predict the annual VDI at the 5km scale from several driving factors, such as annual precipitation, average soil moisturen, wind speed or population density. Then, we apply techniques like permutation importance or SHAP to evaluate the impact of each feature on the output.|
@@ -70,7 +70,7 @@ Algeria is one of the countries most affected by desertification, as evidenced b
 ## Dataset
 
 The data files (in tiff or shapefile format) required to run the Jupyter notebooks are available from the following repository: ...
-Once downloaded, they should be placed in the folder "rasters".
+Once downloaded, they should be placed in the folder *rasters*.
 
 ## Team Members 
 
