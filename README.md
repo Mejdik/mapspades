@@ -69,7 +69,9 @@ Algeria is one of the countries most affected by desertification, as evidenced b
 
 ## Dataset
 
-The data files (in tiff or shapefile format) required to run the Jupyter notebooks are available from the following repository: ...
+The data files (in tiff or shapefile format) required to run the Jupyter notebooks are available from the following links:
+- Kaddour et al, 2024, "HR Images Algerian steppic zone", https://doi.org/10.17026/PT/POJGN2 , DANS Data Station Physical and Technical Sciences, DRAFT VERSION
+- Kaddour et al, 2024, "RS based driving factors of desertification in the Algerian steppic zone", https://doi.org/10.17026/PT/0DNFS0, DANS Data Station Physical and Technical Sciences, DRAFT VERSION
 Once downloaded, they should be placed in the folder *rasters*.
 
 ## Team Members 
